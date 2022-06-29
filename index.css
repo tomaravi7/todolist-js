@@ -1,0 +1,29 @@
+*{
+    color: white;
+}
+body{
+    background-color: black;
+
+}
+input{
+    color: black;
+}
+.task{
+    border: 2px solid white;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+.warning{
+    font-family: monospace;
+    color: red;
+}
+button{
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: black;
+    border: 0px;
+}
+.checked{
+    text-decoration: line-through;
+}
