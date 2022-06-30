@@ -8,7 +8,7 @@ function clk(){
     }
     else{
         $(".warning").html("");
-        timecrnt = dt.getHours() + ":" + dt.getMinutes();
+        timecrnt =dt.getDate()+"/"+dt.getMonth()+ "/"+ dt.getFullYear()  +"  -  "+ dt.getHours() + ":" + dt.getMinutes();
         const todo={
             id:Date.now(),
             task:tsk,
